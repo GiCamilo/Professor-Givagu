@@ -1,0 +1,22 @@
+programa {
+  funcao inicio() {
+    inteiro idade
+    logico carteira_CNH = verdadeiro
+
+    escreva ("Idade:  ")
+    leia (idade)
+
+    escreva ("Possui carteira da CNH:  ")
+    leia (carteira_CNH)
+
+    se (idade >= 18 e carteira_CNH == verdadeiro ){
+    escreva ("Pode dirigir!")
+    }
+    senao {
+      escreva ("Não pode dirigir!")
+    }
+
+
+    
+  }
+}
