@@ -1,0 +1,25 @@
+programa {
+  funcao inicio() {
+    real salario 
+    real salariofinal
+    real salariototal
+    logico beneficio = verdadeiro
+
+    escreva ("Salario: ")
+    leia (salario)
+
+    escreva (" se enquadra ao beneficio: ")
+    leia (beneficio == verdadeiro)
+
+    salariototal = salario * 0.15
+    salariofinal = salario + salariototal
+
+    se (beneficio == verdadeiro)
+    escreva ("Salario final: ", salariofinal)
+    senao 
+    escreva("Salario final:  ",salario)
+    
+
+    
+  }
+}
