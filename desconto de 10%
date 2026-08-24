@@ -1,0 +1,24 @@
+programa {
+  funcao inicio() {
+    real produto, desconto, valor_total
+    logico avista = verdadeiro
+
+    escreva ("Insira o valor  do produto: ")
+    leia (produto)
+
+    escreva ("O pagamento sera a vista: ")
+    leia(avista)
+
+    se (avista == verdadeiro){
+       desconto = produto * 0.10
+      valor_total = produto - desconto
+      escreva("\nO produto saira por ", valor_total)
+    }
+    senao{
+      escreva("\nO produto saira por ", produto)
+    }
+
+
+    
+  }
+}
