@@ -1,4 +1,5 @@
-programa {
+
+    programa {
   funcao inicio() {
     real salario 
     real salariofinal
@@ -14,10 +15,10 @@ programa {
     salariototal = salario * 0.15
     salariofinal = salario + salariototal
 
-    se (beneficio == verdadeiro)
+    se (salario<= 2000)
     escreva ("Salario final: ", salariofinal)
     senao 
-    escreva("Salario final:  ",salario)
+    escreva("Salario final sem aumento:  ",salario)
     
 
     
