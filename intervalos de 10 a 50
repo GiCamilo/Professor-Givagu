@@ -1,0 +1,18 @@
+programa {
+  funcao inicio() {
+    inteiro numero
+
+    escreva("Insira um numero: ")
+    leia(numero)
+  
+
+    se (numero <=50 e numero >=10)
+    escreva("Esta dentro do intervalo")
+
+    senao
+    escreva("esta fora do intervalo")
+
+
+
+  }
+}
