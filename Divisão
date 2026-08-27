@@ -1,0 +1,16 @@
+programa {
+  funcao inicio() {
+    real a, b, divisao
+
+
+  escreva ("insira um numero:  ")
+  leia (a)
+
+  escreva ("inira um numero:  ")
+  leia (b)
+
+  divisao = a/b
+
+  escreva ("A Divisao:  ", divisao)
+  }
+}
