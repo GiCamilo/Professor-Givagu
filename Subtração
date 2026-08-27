@@ -1,0 +1,19 @@
+programa {
+  funcao inicio() {
+    real a, b, menos
+
+    escreva ("Insira um numero:  ")
+    leia ( a )
+
+    escreva("Insira um numero:  ")
+    leia ( b )
+
+    
+    menos = a - b
+
+
+    escreva ("A subtração:  ", menos)
+
+
+  }
+}
