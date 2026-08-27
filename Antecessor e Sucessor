@@ -1,0 +1,17 @@
+programa {
+  funcao inicio() {
+    real a, antecessor, sucessor
+
+    escreva ("Insira um numero:  ")
+    leia (a)
+
+    antecessor = a - 1
+
+    sucessor = a + 1
+
+    escreva ("Antecessor:   ", a -1)
+    escreva ( "\nSucessor:  ", a + 1)
+
+
+  }
+}
