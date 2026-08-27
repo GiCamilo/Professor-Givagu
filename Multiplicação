@@ -1,0 +1,15 @@
+programa {
+  funcao inicio() {
+    real a, b, vezes
+
+    escreva ("Insira um numero:  ")
+    leia (a)
+
+    escreva ("insira um numero:   ")
+    leia (b)
+
+    vezes = a * b 
+
+    escreva ( "Amultiplicação;  ", vezes)
+  }
+}
