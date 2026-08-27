@@ -1,0 +1,15 @@
+programa {
+  funcao inicio() {
+    real a, b, soma
+
+    escreva ("insira um numero:   ")
+    leia ( a )
+
+    escreva (" Insira o segundo numero:  ")
+    leia ( b )
+
+    soma = a + b
+
+    escreva (" Soma:  ", soma)
+  }
+}
