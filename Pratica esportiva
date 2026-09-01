@@ -1,0 +1,22 @@
+programa {
+  funcao inicio() {
+
+    inteiro idade
+    logico autorizacao = verdadeiro
+
+  escreva ("Insira a idade:  ")
+  leia (idade)  
+
+  escreva ("possui autorização:  ")
+  leia (autorizacao)
+
+  se (idade >= 12 e idade <= 17 e autorizacao == verdadeiro)
+  escreva ("Autorizada a pratica esportiva")
+
+  senao 
+  escreva ("Não autorizada a pratica esportiva")
+
+
+
+  }
+}
