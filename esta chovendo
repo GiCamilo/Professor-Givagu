@@ -1,0 +1,15 @@
+programa {
+  funcao inicio() {
+    logico chuva = verdadeiro
+
+    escreva("Esta chovendo?")
+    leia (chuva)
+
+    se ( chuva == verdadeiro)
+    escreva ("Sim, esta chovendo")
+
+    senao
+    escreva ("Não esta chovendo")
+    
+  }
+}
