@@ -1,0 +1,24 @@
+programa {
+  funcao inicio() {
+    inteiro ladoA, ladoB, ladoC
+
+    escreva ("Insira a medida do lado A:   ")
+    leia (ladoA)
+
+    escreva("Insira a medida do lado B:   ")
+    leia(ladoB)
+
+    escreva("Insira a medida do lado C:   ")
+    leia (ladoC)
+
+    se (ladoA == ladoB == ladoC)
+    escreva("Este é um triangulo equilatero!")
+
+    se (ladoA == ladoB ou ladoA == ladoC ou ladoB == ladoC)
+    escreva ("Este é um triangulo isoceles!")
+
+    se (ladoA != ladoB e ladoA!= ladoC e ladoB !=ladoC)
+    escreva ("Este é um triangulo escaleno!")
+    
+  }
+}
