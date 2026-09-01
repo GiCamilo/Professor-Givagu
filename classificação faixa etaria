@@ -1,0 +1,21 @@
+programa {
+  funcao inicio() {
+    inteiro idade 
+
+    escreva("Insira a idade:  ")
+    leia (idade)
+
+    se (idade >=0 e idade <=12)
+    escreva ("criança")
+
+    se (idade >=13 e idade <=18)
+    escreva ("adolescente")
+
+    se (idade >=19 e idade <= 60)
+    escreva ("adulto")
+    
+    se (idade >=61)
+    escreva ("idoso")
+    
+  }
+}
