@@ -1,0 +1,48 @@
+programa {
+  funcao cadeia formaspagamento (inteiro opcao)
+  {
+
+  
+  escolha (opcao)
+  {
+    caso 1:
+    retorne "Dinheiro"
+    caso 2:
+    retorne "Cartão de Crédito"
+    caso 3:
+    retorne "Cartão de Débito"
+    caso 4:
+    retorne "Pix"
+    caso 5:
+    retorne "Boleto"
+    caso contrario:
+    retorne "Opção Invalida"
+
+  }
+  }
+
+   
+
+  funcao inicio() {
+
+    inteiro opcao
+    cadeia pagamento
+  
+    
+    escreva("1 - Dinheiro\n")
+    escreva("2 - Cartão de crédito\n")
+    escreva("3 - Cartão de Débito\n")
+    escreva("4 - Pix\n")
+    escreva("5 - Boleto\n")
+
+    
+    escreva ("Escolha a opção de pagamento: ")
+    leia (opcao)
+
+  pagamento = formaspagamento (opcao)
+
+    escreva ("\nForma de pagamento:  ", pagamento)
+
+  }
+}
+
