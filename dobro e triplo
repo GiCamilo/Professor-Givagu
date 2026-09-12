@@ -1,1 +1,14 @@
+programa {
+  funcao inicio() {
+    real a, dobro, triplo 
+    escreva ("Insira um numero: ")
+    leia (a)
+
+    dobro = a*2
+    triplo = a*3
+
+    escreva ("O dobreo de a é: ",dobro )
+    escreva ("\nO triplo de a é : ", triplo)
+  }
+}
 
