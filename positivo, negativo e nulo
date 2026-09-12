@@ -1,1 +1,16 @@
+programa {
+  funcao inicio() {
 
+    real  a
+
+    escreva("Insira um numero:")
+    leia(a)
+
+    se (a > 0)
+    escreva ("positivo")
+    se (a < 0)
+    escreva ("Negativo")
+    se (a == 0)
+    escreva ("Nulo")    
+  }
+}
