@@ -1,1 +1,24 @@
+programa {
+  funcao inicio() {
+    real a, b, soma, menos, divisao, vezes
+
+    escreva("insira um numero:  ")
+    leia(a)
+
+    escreva("Insira um numero:")
+    leia(b)
+    
+    soma = a + b
+    menos = a - b
+    divisao = a / b
+    vezes = a * b
+
+    escreva ("\nA soma é : ", soma)
+    escreva("\nA subtração é: ", menos)
+    escreva ("\nA divisão é: ", divisao)
+    escreva("\nA multiplicação é: ", vezes)
+
+
+  }
+}
 
