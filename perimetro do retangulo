@@ -1,1 +1,16 @@
+programa {
+  funcao inicio() {
+
+    inteiro ladoA, ladoB
+
+    escreva("Insira o lad A: ")
+    leia (ladoA)
+
+    escreva("Inairia o lado B: ")
+    leia(ladoB)
+
+    escreva ("O perimetro do retagulo = ",ladoA*2 + ladoB *2)
+    
+  }
+}
 
