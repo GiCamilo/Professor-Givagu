@@ -1,6 +1,5 @@
 programa {
-  funcao inicio() {
-
+  funcao inicio() 
     inteiro idade
     logico autorizacao = verdadeiro
 
