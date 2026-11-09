@@ -1,0 +1,35 @@
+programa {
+  funcao inicio() {
+    inteiro i = 0
+    
+
+    faca{
+      escreva( i, "\n")
+      i++
+    }
+    enquanto (i <= 10)
+    
+  }
+}
+
+
+programa {
+  funcao inicio() {
+    
+    inteiro i = 1 
+    real numero
+    real soma = 0
+
+    faca{
+      escreva("Insira um numero: ")
+      leia (numero )
+      soma = soma + numero
+      i++
+    }
+    enquanto(i <= 5)
+    escreva ("Resultado da somatoria: ", soma)
+
+
+   
+  }
+}
