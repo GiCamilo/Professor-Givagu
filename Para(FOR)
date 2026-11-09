@@ -1,0 +1,22 @@
+programa {
+  funcao inicio() {
+    inteiro i
+
+    para (i= 20; i >= 10; i--)
+    escreva ("Valores:",i,"\n")
+    
+  }
+}
+
+
+
+
+programa {
+  funcao inicio() {
+    inteiro i
+
+    para (i = -55; i<= 99; i++ )
+    escreva(i,"\n")
+    
+  }
+}
