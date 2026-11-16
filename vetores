@@ -1,0 +1,38 @@
+programa {
+  funcao inicio() {
+    //Vetor de cinco numeros (caixas de mercado) com a quantidade de pessoas na fila e a exibição dos valores
+
+    inteiro caixas[5]
+
+    inteiro i
+
+    
+     para(i = 0; i < 5; i++){
+      escreva("Insira o n de pessoas na primeira fila ",i + 1": ")
+      leia (caixas[i])
+      
+     }
+    para( i = 0;i < 5; i++)
+    escreva("\nCaixa ",i + 1,":", caixas[i], " pessoas na fila \n")
+}
+}
+
+
+programa {
+  funcao inicio() {
+    //soma de vetoresn de 8 numeros 
+
+    inteiro numeros[8]
+    inteiro i
+    inteiro soma
+
+     para(i = 0; i < 8; i++){
+      escreva("Insira o numero ",i + 1,": ")
+      leia (numeros[i])
+  }
+
+  soma = numeros[0] + numeros[1] + numeros[2]+ numeros[3] + numeros[4] + numeros[5] + numeros[6] + numeros[7]
+
+  escreva("A soma dos vetores :  ", soma)
+}
+}
